@@ -1,0 +1,9 @@
+set1=set()
+sum=0
+for i in range(5):
+    item=int(input("enter the set elements"))
+    set1.add(item)
+print(set1)
+for i in set1:
+    sum=sum+i
+print(sum)
